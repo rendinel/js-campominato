@@ -7,7 +7,7 @@ var maxElements = 16;
 // var max = 100;
 
 var numbersPc = [];
-var numbersUser = []
+var numbersUser = [];
 
 for(var x = 0; x < maxElements; x++) {
   numbersPc.push(randomNumber(1, 100));
@@ -15,12 +15,12 @@ for(var x = 0; x < maxElements; x++) {
 }
 
 for (var i = 0; i < maxElements; i++) {
-  numbersUser.push(parseInt(prompt('Inserisci un numero da 1 a 100 (te lo chiederó 16 volte non mi sono incantato)')))
-  console.log(numbersUser)
-}
+  numbersUser.push(parseInt(prompt('Inserisci un numero intero da 1 a 100 (te lo chiederó 16 volte non mi sono incantato)')));
+  console.log(numbersUser);
+};
 
-if (numbersUser[i] <= 100) {
-  alert('ok')
+if (numbersUser[i].length <= 3 || numbersUser[i] % numbersUser[i] = 1 || numbersUser[i] !== isNaN ) {
+  alert('ok');
 } else  {
-  alert('non prendermi in giro')
+  alert('non prendermi in giro');
 }
